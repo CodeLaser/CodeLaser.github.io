@@ -9,9 +9,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
-  color: #faf5f4;
-  background: url("../img/bg.jpg") top center no-repeat;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  background: url("../img/bazel2_bw1.png") top center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -74,18 +74,32 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #faf5f4;
+  color: #ffffff;
   line-height: 0;
 }
 
 .back-to-top:hover {
   background: #2ed6c0;
-  color: #faf5f4;
+  color: #ffffff;
 }
 
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+
+
+#space5 {
+  height: 5vw;
+}
+
+
+#space10 {
+  height: 10vw;
+}
+
+#space20 {
+  height: 20vw;
 }
 
 /*--------------------------------------------------------------
@@ -94,7 +108,7 @@ h6 {
 #header {
   position: relative;
   width: 100%;
-  padding: 100px 0;
+  padding: 100px 0; 
   /* countdown */
 }
 
@@ -103,11 +117,11 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #faf5f4;
+  color: #ffffff;
 }
 
 #header h2 {
-  color: #faf5f4;
+  color: #ffffff;
   margin-bottom: 40px;
   font-size: 22px;
 }
@@ -162,7 +176,7 @@ h6 {
 #header .subscribe h4 {
   font-size: 20px;
   font-weight: 600;
-  color: #faf5f4;
+  color: #ffffff;
   position: relative;
   padding-bottom: 12px;
 }
@@ -170,7 +184,7 @@ h6 {
 #header .subscribe .subscribe-form {
   min-width: 300px;
   margin-top: 10px;
-  background: #faf5f4;
+  background: #ffffff;
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
@@ -193,7 +207,7 @@ h6 {
   font-size: 16px;
   padding: 0 20px;
   background: #74dd80;
-  color: #faf5f4;
+  color: #ffffff;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -213,10 +227,10 @@ h6 {
 
 #header .subscribe .sent-message {
   display: none;
-  color: #18d26e;
+  /* color: #18d26e; */
   text-align: center;
   padding: 15px;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 #header .subscribe .loading {
@@ -233,7 +247,7 @@ h6 {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
-  border-top-color: #faf5f4;
+  border-top-color: #ffffff;
   -webkit-animation: animate-loading-notify 1s linear infinite;
   animation: animate-loading-notify 1s linear infinite;
 }
@@ -264,7 +278,7 @@ h6 {
 
 #header .social-links a {
   font-size: 16px;
-  color: #faf5f4;
+  color: #ffffff;
   margin: 0 3px;
   border-radius: 50%;
   width: 48px;
@@ -341,12 +355,12 @@ h6 {
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
-  color: #faf5f4;
+  color: #ffffff;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #faf5f4;
+  color: #ffffff;
   background: #28ccb7;
 }
 
@@ -360,7 +374,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #faf5f4;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -429,7 +443,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #faf5f4;
+  color: #ffffff;
 }
 
 @media (max-width: 991px) {
@@ -468,7 +482,7 @@ h6 {
   left: 15px;
   padding: 10px 0;
   border-radius: 10px;
-  background-color: #faf5f4;
+  background-color: #ffffff;
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -499,7 +513,7 @@ h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #faf5f4;
+  background: #ffffff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -581,7 +595,7 @@ section {
 }
 
 .about .icon i {
-  color: #faf5f4;
+  color: #ffffff;
   font-size: 42px;
   line-height: 0;
 }
@@ -594,7 +608,7 @@ section {
 }
 
 .about .title a {
-  color: #faf5f4;
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -622,7 +636,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #faf5f4;
+  color: #ffffff;
   float: left;
   width: 44px;
   height: 44px;
@@ -659,7 +673,7 @@ section {
   font-size: 18px;
   display: inline-block;
   background: #333;
-  color: #faf5f4;
+  color: #ffffff;
   line-height: 1;
   padding: 8px 0;
   border-radius: 50%;
@@ -672,14 +686,14 @@ section {
 
 .contact .info .social-links a:hover {
   background: #74dd80;
-  color: #faf5f4;
+  color: #ffffff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
   background: #74dd80;
-  color: #faf5f4;
+  color: #ffffff;
 }
 
 .contact .php-email-form {
@@ -705,7 +719,7 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #faf5f4;
+  color: #ffffff;
   background: #ed3c0d;
   text-align: left;
   padding: 15px;
@@ -718,7 +732,7 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #faf5f4;
+  color: #ffffff;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -727,7 +741,7 @@ section {
 
 .contact .php-email-form .loading {
   display: none;
-  background: #faf5f4;
+  background: #ffffff;
   text-align: center;
   padding: 15px;
 }
@@ -740,7 +754,7 @@ section {
   height: 24px;
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
-  border-top-color: #faf5f4;
+  border-top-color: #ffffff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
@@ -764,7 +778,7 @@ section {
   background: #74dd80;
   border: 0;
   padding: 10px 24px;
-  color: #faf5f4;
+  color: #ffffff;
   transition: 0.4s;
   border-radius: 50px;
 }
@@ -799,7 +813,7 @@ section {
 #footer {
   background: rgba(38, 55, 69, 0.4);
   padding: 30px 0;
-  color: #faf5f4;
+  color: #ffffff;
   font-size: 14px;
   position: relative;
 }
@@ -812,7 +826,7 @@ section {
   padding-top: 10px;
   text-align: center;
   font-size: 13px;
-  color: #faf5f4;
+  color: #ffffff;
 }
 
 #footer .credits a {
