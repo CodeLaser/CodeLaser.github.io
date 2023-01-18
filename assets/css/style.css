@@ -13,6 +13,7 @@ body {
   color: #ffffff;
   background: url("../img/bazel2_bw1.png") top center no-repeat;
   background-size: cover;
+  /* background-color: #333; */
   position: relative;
 }
 
@@ -33,7 +34,7 @@ body::before {
 }
 
 a {
-  color: #74dd80;
+  color: #0956f9;
   text-decoration: none;
 }
 
@@ -65,7 +66,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #74dd80;
+  background: #0956f9;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -98,8 +99,25 @@ h6 {
   height: 10vw;
 }
 
+#space15 {
+  height: 15vw;
+}
+
 #space20 {
   height: 20vw;
+}
+
+
+
+/*--------------------------------------------------------------
+# Tagline
+--------------------------------------------------------------*/
+
+.tagline {
+  width: 100%;
+  background-color: #000000;
+  padding: 2em;
+
 }
 
 /*--------------------------------------------------------------
@@ -124,6 +142,12 @@ h6 {
   color: #ffffff;
   margin-bottom: 40px;
   font-size: 22px;
+}
+
+#header h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 #header .countdown {
@@ -168,12 +192,24 @@ h6 {
   }
 }
 
-#header .subscribe {
+
+/*--------------------------------------------------------------
+# Subscribe
+--------------------------------------------------------------*/
+
+.subscribe {
   font-size: 15px;
   text-align: center;
+  max-width: 600px;
 }
 
-#header .subscribe h4 {
+.subscribe h2 {
+  color: #ffffff;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+.subscribe h4 {
   font-size: 20px;
   font-weight: 600;
   color: #ffffff;
@@ -181,7 +217,7 @@ h6 {
   padding-bottom: 12px;
 }
 
-#header .subscribe .subscribe-form {
+.subscribe .subscribe-form {
   min-width: 300px;
   margin-top: 10px;
   background: #ffffff;
@@ -191,13 +227,13 @@ h6 {
   text-align: left;
 }
 
-#header .subscribe .subscribe-form input[type=email] {
+.subscribe .subscribe-form input[type=email] {
   border: 0;
   padding: 4px 8px;
   width: calc(100% - 100px);
 }
 
-#header .subscribe .subscribe-form input[type=submit] {
+.subscribe .subscribe-form input[type=submit] {
   position: absolute;
   top: 0;
   right: -2px;
@@ -206,18 +242,18 @@ h6 {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #74dd80;
+  background: #0956f9;
   color: #ffffff;
   transition: 0.3s;
   border-radius: 50px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-#header .subscribe .subscribe-form input[type=submit]:hover {
-  background: #22ae9c;
+.subscribe .subscribe-form input[type=submit]:hover {
+  background: #5582e3;
 }
 
-#header .subscribe .error-message {
+.subscribe .error-message {
   display: none;
   color: #ed3c0d;
   text-align: center;
@@ -225,7 +261,7 @@ h6 {
   font-weight: 600;
 }
 
-#header .subscribe .sent-message {
+.subscribe .sent-message {
   display: none;
   /* color: #18d26e; */
   text-align: center;
@@ -233,13 +269,13 @@ h6 {
   /* font-weight: 600; */
 }
 
-#header .subscribe .loading {
+.subscribe .loading {
   display: none;
   text-align: center;
   padding: 15px;
 }
 
-#header .subscribe .loading:before {
+.subscribe .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -295,8 +331,8 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #74dd80;
-  border-color: #74dd80;
+  background: #0956f9;
+  border-color: #0956f9;
 }
 
 /*--------------------------------------------------------------
@@ -346,12 +382,12 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #74dd80;
+  color: #0956f9;
 }
 
 .navbar .getstarted,
 .navbar .getstarted:focus {
-  background: #74dd80;
+  background: #0956f9;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -398,7 +434,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #74dd80;
+  color: #0956f9;
 }
 
 .navbar .dropdown:hover>ul {
@@ -497,7 +533,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #74dd80;
+  color: #0956f9;
 }
 
 .navbar-mobile .getstarted,
@@ -532,7 +568,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #74dd80;
+  color: #0956f9;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -557,7 +593,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 22px;
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -621,8 +657,8 @@ section {
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info {
-  border-top: 3px solid #74dd80;
-  border-bottom: 3px solid #74dd80;
+  border-top: 3px solid #74ddb0;
+  border-bottom: 3px solid #74ddb0;
   padding: 30px;
   background: rgba(255, 255, 255, 0.06);
   width: 100%;
@@ -685,21 +721,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #74dd80;
+  background: #0956f9;
   color: #ffffff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #74dd80;
+  background: #0956f9;
   color: #ffffff;
 }
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #74dd80;
-  border-bottom: 3px solid #74dd80;
+  border-top: 3px solid #0956f9;
+  border-bottom: 3px solid #0956f9;
   padding: 30px;
   background: rgba(255, 255, 255, 0.06);
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -775,7 +811,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #74dd80;
+  background: #0956f9;
   border: 0;
   padding: 10px 24px;
   color: #ffffff;
