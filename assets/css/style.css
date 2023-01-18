@@ -131,10 +131,11 @@ h6 {
 }
 
 #header h1 {
+  text-align: center;
   margin: 0 0 10px 0;
-  font-size: 48px;
+  font-size: 1.8rem;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 48px;
   color: #ffffff;
 }
 
